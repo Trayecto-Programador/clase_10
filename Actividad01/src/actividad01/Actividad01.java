@@ -14,7 +14,7 @@ public class Actividad01 {
         double promedio, totalHistoria;
         String titulo, autor, categoria;
 
-        totalLibros = 10;
+        totalLibros = 3;
         cantidadLibros = 0;
         totalHistoria = 0;
         cantidadHistoria = 0;
@@ -30,7 +30,6 @@ public class Actividad01 {
                 cantidadHistoria++;
                 
             }
-;
             cantidadLibros++;
         }
         promedio = totalHistoria / cantidadHistoria;
